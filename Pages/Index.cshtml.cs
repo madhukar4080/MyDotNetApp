@@ -17,7 +17,9 @@ namespace MyDotNetApp.Pages
 
     public class SampleData
     {
-        public string Message { get; set; }
-        public string Date { get; set; }
+        public string Message { get; set; } = string.Empty;
+
+        public string Date { get; set; } = string.Empty;
+
     }
 }
